@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zmerticHomes</title>
+    
+    <link rel="shortcut icon" href="./Assets/build.png" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+        </style>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+Newa&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+            </style>
+        
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="newcss.css">
+</head>
+<body>
+    <div class="div-container">
+        <header>
+            <nav class="sideBar" id="sideBar">
+                <ul  class="sideNavigate">
+                        <img src="./Assets/close.png" alt="" id="HideMenu">
+                        <div class="dHome">
+                            <img src="./Assets/home.png" alt="">
+                            <li><a href="#">Home</a></li>
+                        </div>
+                        <div class="dHome">
+                            <img src="./Assets/apartment.png" alt="">
+                            <li><a href="#properties">Properties</a></li>
+                        </div>
+                        
+                        <div class="dHome">
+                            <img src="./Assets/about.png" alt="">
+                            <li><a href="#about">About us</a></li>
+                        </div>
+                        <div class="dHome">
+                            <img src="./Assets/phone.png" alt="">
+                            <li><a href="#contact">Contact us</a></li>
+                        </div>
+                </ul>
+                <ul class="lowerSide">
+                    <li class="signIn">
+                        <img src="./Assets/signin.png" alt="">
+                        <h5>Sign in</h5>
+                    </li>
+                    <li class="toggle">
+                        <img src="./Assets/lightmode.png" alt="">
+                        <h5>Light mode</h5>
+                        <img src="./Assets/toggleOn.png" alt="">
+
+                    </li>
+                </ul>
+            </nav>
+            <nav class="navBar">
+                <ul>
+                    <div>
+                        <li class="logo"><img src="./Assets/build.png" alt="" style="width: 2.7rem; height: 2.7rem;">ZmerticHomes</li>
+                    </div>
+                    <div class="navigate">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#properties">Properties</a></li>
+                        <li><a href="#about">About us</a></li>
+                        <li><a href="#contact">Contact us</a></li>
+                    </div>
+                    <li class="icons">
+                        <img src="./Assets/search.png" alt="" id="search">
+                        <img src="./Assets/profile.png" alt="">
+                        <img src="./Assets/cart.png" alt="">
+                    </li>
+                    <img src="./Assets/menu.png" alt="" id="ShowMenu">
+                </ul>
+            </nav>
+        </header>
+        <div id="addSearchBar">
+    
+        </div>
+        <main class="main">
+            <div class="background">
+                <h1>Find a home that suits your lifestyle</h1><br>
+            <p>We are committed to  promote sustainable living by connecting clients with eco-friendly properties and 
+                solutions that not only meet their needs but also contribute to a greener future</p>
+            </div>
+            <div id="float">
+                <div id="select">
+                    <label for="ategory">Category</label>
+                    <select name="category" id="category">
+                        <option value="" disabled selected></option>
+                        <option value="duplex">duplex</option>
+                        <option value="fully-detached">fullydetached</option>
+                        <option value="onebedroom">onebedroom</option>
+                    </select>
+                </div>
+                <div id="select">
+                    <label for="propertyType">property type</label>
+                    <select name="property" id="propertyType">
+                        <option value="" disabled selected></option>
+                        <option value="duplex">duplex</option>
+                        <option value="fully-detached">fullydetached</option>
+                        <option value="onebedroom">onebedroom</option>
+                    </select>
+                </div>
+                <div id="select">
+                    <label for="location">Location</label>
+                    <select name="location" id="location">
+                        <option value="" disabled selected></option>
+                        <option value="lagos">Lagos</option>
+                        <option value="abuja">Abuja</option>
+                        <option value="porthacourt">Porthacourt</option>
+                    </select>
+                </div>
+                <img src="./Assets/images.png" alt="" class="img">
+                <div id="FloatSearch">
+                    <img src="./Assets/searched.png" alt="" style="width: 20px;">
+                    <p>Search</p>
+                </div>
+            </div>
+        </main>
+        <script src="index.js"></script>
+    </div>
+</body>
+</html>

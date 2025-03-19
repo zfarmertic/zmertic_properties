@@ -1,0 +1,40 @@
+main{
+    position: relative;
+}
+#float{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -27px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+#float img{
+    width: 30px;
+}
+#FloatSearch{
+    display: flex;
+    background-color: #0057FF;
+    padding: 5px;
+    border-radius: 6px;
+    color: white;
+}
+#float select{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+#select{
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    padding:5px;
+    border-radius: 6px;
+}
