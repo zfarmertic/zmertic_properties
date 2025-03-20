@@ -1,4 +1,4 @@
-main{
+.background{
     position: relative;
 }
 #float{
@@ -37,4 +37,19 @@ main{
     border: 1px solid whitesmoke;
     padding:5px;
     border-radius: 6px;
+}
+#FloatSearch input{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: white;
+}
+#FloatSearch ::placeholder{
+    color: white;
+    margin-right: 10px;
+}
+
+.properties img{
+    width: 400px;
+    height: auto;
 }
