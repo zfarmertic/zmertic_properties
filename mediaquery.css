@@ -52,4 +52,74 @@
         font-weight: 900;
     }
 
+    .properties{
+        flex-direction: column;
+    }
+    .divProperties{
+        width:100%
+    }
+    .mainThree{
+        flex-direction: column;
+        height: 60vh;
+        justify-content: center;
+        align-items: center;
+    }
+    /* .ThreeWrite{
+        flex-direction: row;
+    } */
+    .ThreeWrite a{
+        padding: 3px 6px 3px 6px;
+        border-radius: 5px;
+    }
+    .ThreeWrite p{
+        width: auto;
+        line-height: 1.4;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+    .mainThree img{
+        width: 150px;
+        height: 100px;
+        border-radius: 15px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .ThreeWrite h2{
+        font-size: 0.8rem;
+    }
+    .ThreeWrite span{
+        font-weight: 900;
+        font-size: 2rem;
+    }
+    .hideIt{
+        display: none;
+    }
+    .finput{
+       
+        margin: 5px auto;
+        padding: 7px;
+        outline: none;
+        border-radius: 7px;
+    }
+    .mainFour{
+        background: #100E2C !important;
+    }
+    footer{
+        flex-direction: column;
+        background: linear-gradient(to right,  #1e90ff, #f1cece);
+    }
+
+    footer input{
+        width: 60%;
+
+        
+    }
+    footer .btn{
+        margin: 0;
+        
+    }
+    footer form{
+        width: 90%;
+        flex-direction: row;
+    }
 }

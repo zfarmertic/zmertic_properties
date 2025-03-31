@@ -104,7 +104,7 @@ border-radius: 5px;
         gap: 12px;
 }
 .icons img:hover{
-        background-color: rgb(49, 143, 49);
+        background-color: #8EDA53;
 }
 .logo{
         font-size: 1.4rem;
@@ -156,20 +156,24 @@ border-radius: 5px;
 .properties{
     /* background-color: yellowgreen; */
     display: flex;
+    gap: 30px;
     flex-wrap: wrap;
-    gap: 40px;
+    margin-top: 30px;
 }
-.properties .imgProp{
-    width:350px ;
+.properties .propImage{
+    width:100% ;
     height: 200px;
     object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .divProperties{
-    background-color: #0c0000;
-    /* width:30%; */
-    /* height: auto; */
+    background-color: #fff;
+    width:30%; 
+    height: auto; 
     border-radius: 10px;
-    /* flex: 1 1 calc(25% - 10px); */
+    flex: 1 1 calc(25% - 10px);
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0, 0.3);
 }
 .featureImage {
     width: auto;   /* Ensure the parent doesn't have a fixed width */
@@ -178,9 +182,191 @@ border-radius: 5px;
 }
 
 .featureImage img {
-    width: 20px !important;
+    width: 15px !important;
     height: auto;  /* Maintain aspect ratio */
 }
 .feature{
     display: flex;
+    gap: 10px;
+    font-size: 10px;
+    padding: 5px;
+    justify-content: space-around;
+}
+.featureImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+hr{
+    font-weight: 900;
+}
+
+.imageTag{
+    position: relative;
+}
+.salesTag{
+    position: absolute;
+    background-color: #8EDA53;
+    top: 13px;
+    left: 20px;
+    padding: 6px 12px 6px 12px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2rem;
+}
+.rentTag{
+    background-color: #9653DA;
+}
+.mainThree{
+    background: #100E2C;
+    margin-top: 5px;
+    display: flex;
+   justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.mainThree img{
+    width: 250px;
+    height: 200px;
+    border-radius: 15px;
+    margin-top: 35px;
+}
+.ThreeWrite a{
+    display: inline-block;
+    background-color: #0057FF;
+    text-decoration: none;
+    padding: 6px 12px 6px 12px;
+    border-radius: 10px;
+}
+.ThreeWrite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 20px;
+    width: 50%;
+    height: 250px;
+}
+.ThreeWrite p{
+    width: 70%;
+    line-height: 1.4;
+    text-align: center;
+}
+.ThreeWrite h2{
+    line-height: 1.4;
+    text-align: center;
+}
+.ThreeWrite span{
+    font-weight: 900;
+    font-size: 2rem;
+}
+.mainFour{
+    background: linear-gradient(to right,  #1e90ff, #f1cece);
+    align-items: center;
+    height: auto;
+}
+.formContainer{
+    background: #100E2C;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    width: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.finput{
+    width: 95%;
+    margin: 10px auto;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+}
+.formContainer h3, .formContainer p{
+    color: #fff;
+}
+.btn{
+    color:white;
+    background-color: #0057FF;
+    padding: 8px 12px 8px 18px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+textarea{
+    width: 95%;
+    margin: 10px 0;
+    height: 100px;
+    border-radius: 10px;
+}
+footer{
+    background: #100E2C;
+    display: flex;
+    width: auto;
+    max-width: 100%;
+    justify-content: space-around;
+    padding: 10px;
+    color: white;
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+footer h5{
+    margin-bottom: 10px;
+}
+footer p{
+    margin-bottom: 10px;
+}
+footer form{
+    background-color: white;
+    border-radius: 10px;
+}
+footer input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    
+}
+footer .btn{
+    margin: 3px;
+    
+}
+.showForm{
+    /* display: flex;  */
+    align-items: center; 
+    background: linear-gradient(to right,  #1e90ff, #f1cece);
+    width: 50%; 
+    margin: 6px auto 0;
+    border-radius: 7px;
+    display: none;
+}
+.showFormInput{
+    width: 80%;
+    border: none;
+    background-color: transparent; 
+    outline: none;
+    padding: 8px 0 8px 0;
+    color: white;
+    line-height: 1.5;
+}
+.showFormBtn{
+    align-self: flex-end;
+    padding: 8px;
+    width: 20%;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+    margin-left: 10px;
+    background: linear-gradient(to right, #f1cece, #1e90ff);
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
 }

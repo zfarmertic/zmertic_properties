@@ -26,3 +26,12 @@ let HideMenu = document.getElementById("HideMenu")
 HideMenu.addEventListener("click", ()=>{
     sideBar.style.display = "none"
 })
+
+let search = document.getElementById("search")
+let showForm = document.getElementById("showForm")
+let isShowForm = false;
+    search.addEventListener("click", function(){
+        isShowForm = !isShowForm;
+        showForm.style.display = isShowForm ? "flex" : "none";
+
+    })
